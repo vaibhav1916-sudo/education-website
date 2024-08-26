@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>home</title>
+
+   <!-- font awesome cdn link  -->
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css">
+
+   <!-- custom css file link  -->
+   <link rel="stylesheet" href="css/style.css">
+
+</head>
+<body>
+
+<header class="header">
+   
+   <section class="flex">
+
+      <a href="home.html" class="logo">Dreamweaver</a>
+
+      <form action="search.html" method="post" class="search-form">
+         <input type="text" name="search_box" required placeholder="search courses..." maxlength="100">
+         <button type="submit" class="fas fa-search"></button>
+      </form>
+
+      <div class="icons">
+         <div id="menu-btn" class="fas fa-bars"></div>
+         <div id="search-btn" class="fas fa-search"></div>
+         <div id="user-btn" class="fas fa-user"></div>
+         <div id="toggle-btn" class="fas fa-sun"></div>
+      </div>
+
+      <div class="profile">
+         <img src="images/pic-1.jpg" class="image" alt="">
+         <h3 class="name">XYZ</h3>
+         <p class="role">student</p>
+         <a href="profile.html" class="btn">Profile</a>
+         <div class="flex-btn">
+            <a href="login.html" class="option-btn">Login</a>
+            <a href="register.html" class="option-btn">Register</a>
+         </div>
+      </div>
+
+   </section>
+
+</header>   
+
+<div class="side-bar">
+
+   <div id="close-btn">
+      <i class="fas fa-times"></i>
+   </div>
+
+   <div class="profile">
+      <img src="images/pic-1.jpg" class="image" alt="">
+      <h3 class="name">XYZ</h3>
+      <p class="role">student</p>
+      <a href="profile.html" class="btn">Profile</a>
+   </div>
+
+   <nav class="navbar">
+      <a href="home.html"><i class="fas fa-home"></i><span>Home</span></a>
+      <a href="about.html"><i class="fas fa-question"></i><span>About</span></a>
+      <a href="courses.html"><i class="fas fa-graduation-cap"></i><span>Courses</span></a>
+      <a href="teachers.html"><i class="fas fa-chalkboard-user"></i><span>Faculty</span></a>
+      <a href="contact.html"><i class="fas fa-headset"></i><span>Contact us</span></a>
+   </nav>
+
+</div>
+
+<section class="home-grid">
+
+   <h1 class="heading">quick options</h1>
+
+   <div class="box-container">
+
+      <div class="box">
+         <h3 class="title">Likes</h3>
+         <p class="likes">Total likes : <span>25</span></p>
+         <a href="#" class="inline-btn">View likes</a>
+         <p class="likes">Total comments : <span>12</span></p>
+         <a href="#" class="inline-btn">View comments</a>
+         <p class="likes">Saved playlists : <span>4</span></p>
+         <a href="#" class="inline-btn">View playlists</a>
+      </div>
+
+      <div class="box">
+         <h3 class="title">top categories</h3>
+         <div class="flex">
+            <a href="#"><i></i><span>HTML</span></a>
+            <a href="#"><i ></i><span>CSS</span></a>
+            <a href="#"><i ></i><span>js</span></a>
+            <a href="#"><i ></i><span>History</span></a>
+            <a href="#"><i ></i><span>Polity</span></a>
+            <a href="#"><i ></i><span>Mathematics</span></a>
+            <a href="#"><i ></i><span>DS</span></a>
+            <a href="#"><i ></i><span>Science</span></a>
+         </div>
+      </div>
+
+      <div class="box">
+         <h3 class="title">Treanding topics</h3>
+         <div class="flex">
+            <a href="#"><i ></i><span>Tags</span></a>
+            <a href="#"><i ></i><span>CSS</span></a>
+            <a href="#"><i ></i><span>President</span></a>
+            <a href="#"><i ></i><span>TIme and Work</span></a>
+            <a href="#"><i ></i><span>Linklist</span></a>
+            <a href="#"><i ></i><span>Reproduction</span></a>
+         </div>
+      </div>
+
+      <div class="box">
+         <h3 class="title">Become a tutor</h3>
+         <p class="tutor">Join us to make the Youth better</p>
+         <a href="teachers.html" class="inline-btn">Join</a>
+      </div>
+
+   </div>
+
+</section>
+
+
+
+<section class="courses">
+
+   <h1 class="heading"> Popular Courses</h1>
+
+   <div class="box-container">
+
+      <div class="box">
+         <div class="tutor">
+            <img src="images/pic-2.jpg" alt="">
+            <div class="info">
+               <h3>Shatakhi Verma</h3>
+               <span>04-08-2024</span>
+            </div>
+         </div>
+         <div class="thumb">
+            <img src="images/thumb-1.png" alt="">
+            <span>10 videos</span>
+         </div>
+         <h3 class="title">Cmplete HTML tutorial</h3>
+         <a href="playlist.html" class="inline-btn">View lessons</a>
+      </div>
+
+      <div class="box">
+         <div class="tutor">
+            <img src="images/pic-3.jpg" alt="">
+            <div class="info">
+               <h3>Arun Gupta</h3>
+               <span>21-08-2024</span>
+            </div>
+         </div>
+         <div class="thumb">
+            <img src="images/thumb-2.png" alt="">
+            <span>10 videos</span>
+         </div>
+         <h3 class="title">Complete CSS tutorial</h3>
+         <a href="playlist.html" class="inline-btn">View lessons</a>
+      </div>
+
+      <div class="box">
+         <div class="tutor">
+            <img src="images/pic-5.jpg" alt="">
+            <div class="info">
+               <h3>Anshika Singh</h3>
+               <span>04-08-2024</span>
+            </div>
+         </div>
+         <div class="thumb">
+            <img src="images/thumb-3.png" alt="">
+            <span>10 videos</span>
+         </div>
+         <h3 class="title">complete JS tutorial</h3>
+         <a href="playlist.html" class="inline-btn">View lessons</a>
+      </div>
+
+      <div class="box">
+         <div class="tutor">
+            <img src="images/pic-5.jpg" alt="">
+            <div class="info">
+               <h3>Kavita Rathore</h3>
+               <span>29-07-2024</span>
+            </div>
+         </div>
+         <div class="thumb">
+            <img src="images/images.jpeg" alt="">
+            <span>10 videos</span>
+         </div>
+         <h3 class="title">Complete Indian History</h3>
+         <a href="playlist.html" class="inline-btn">View lessons</a>
+      </div>
+
+      <div class="box">
+         <div class="tutor">
+            <img src="images/pic-6.jpg" alt="">
+            <div class="info">
+               <h3>Vaibhav Singh </h3>
+               <span>02-08-2024</span>
+            </div>
+         </div>
+         <div class="thumb">
+            <img src="images/images (2).jpeg" alt="">
+            <span>10 videos</span>
+         </div>
+         <h3 class="title">Complete Polity</h3>
+         <a href="playlist.html" class="inline-btn">View lesson</a>
+      </div>
+
+      <div class="box">
+         <div class="tutor">
+            <img src="images/pic-7.jpg" alt="">
+            <div class="info">
+               <h3>Ayush Shrivastva</h3>
+               <span>03-07-2024</span>
+            </div>
+         </div>
+         <div class="thumb">
+            <img src="images/download.jpeg" alt="">
+            <span>10 videos</span>
+         </div>
+         <h3 class="title">Complete Mathematics</h3>
+         <a href="playlist.html" class="inline-btn">View lessons</a>
+      </div>
+
+   </div>
+
+   <div class="more-btn">
+      <a href="courses.html" class="inline-option-btn">view all courses</a>
+   </div>
+
+</section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<footer class="footer">
+
+   &copy; copyright @ 2024 by <span>mr. Dreamweaver</span> | all rights reserved!
+
+</footer>
+
+<!-- custom js file link  -->
+<script src="js/script.js"></script>
+
+   
+</body>
+</html>
